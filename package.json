@@ -1,0 +1,30 @@
+{
+  "name": "clothings-deals-bot",
+  "version": "1.0.0",
+  "description": "ClothingDeals is a bot built with discordjs that notifies you of recently posted sales on https://www.reddit.com/r/frugalmalefashion .",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrid97/ClothingDealsBot.git"
+  },
+  "author": "Christopher Goncalves",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/chrid97/ClothingDealsBot/issues"
+  },
+  "homepage": "https://github.com/chrid97/ClothingDealsBot#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "discord.js": "^12.2.0",
+    "express": "^4.17.1",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "type": "module"
+}
