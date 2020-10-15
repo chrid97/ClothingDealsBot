@@ -11,17 +11,6 @@ async function getNewPosts(limit = 10) {
             const { data: { id, url, title } } = post;
             return { id, url, title };
     });
-    // if (response.status === 502) {
-    //     await subscribe();
-    // } else if (response.status !== 200) {
-    //     console.log(response.statusTest);
-    //     await new Promise(resolve => setTimeout(resolve, 1000));
-    //     await subscribe();
-    // } else {
-    //     // await new Promise(resolve => setTimeout(resolve, 1800000));
-    //     return getPosts(response);
-    //     // await subscribe();
-    // }
 }
 
 function isPostNew(currentPosts, newPost) {
