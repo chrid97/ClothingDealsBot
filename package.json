@@ -21,7 +21,7 @@
     "axios": "^0.19.2",
     "discord.js": "^12.3.1",
     "express": "^4.17.1",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   },
   "devDependencies": {
     "eslint": "^6.8.0"
