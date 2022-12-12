@@ -20,7 +20,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "discord.js": "^12.3.1",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {
